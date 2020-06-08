@@ -7,4 +7,4 @@
 
 Список учебных проектов по которым обучаюсь:
 1) (В разработке) Видео-курс от https://itproger.com/ or https://www.youtube.com/playlist?list=PL0lO_mIqDDFUpe6yMyXAlcrfT6AO0KW1a
-2) ---
+2) (В разработке) курс по знакомству с html и css с сайта https://webref.ru/layout/learn-html-css
