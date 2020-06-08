@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Arial_MT_Bold";
+    src: url("../fonts/Arial-BoldMT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Arial_MT";
+    src: url("../fonts/ArialMT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial_MT";
+}
+
+h3 {
+    font-family: "Arial_MT_Bold";
+    font-size: 22px;
+}
+
+.card {
+    min-width: 1010px;
+    min-height: 503px;
+    max-width: 1010px;
+    max-height: 503px;
+    border: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 47px;
+}
+
+.main-container {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+img {
+    height: 100%;
+}
+
+.img {
+    width: 376px;
+    height: 375px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content0 {
+    display: inline-block;
+    width: 400px;
+    height: 375px;
+    margin-left: 99px;
+    vertical-align: middle;
+}
+
+.content1 {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+.content2 {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+.name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.price-name {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.price {
+    margin-top: 23px;
+    font-size: 28px;
+    margin-bottom: 56px;
+}
+.btn {
+    font-size: 19px;
+    padding: 16px 39px;
+    background-color: #ec744a;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*
+
+
+*/
