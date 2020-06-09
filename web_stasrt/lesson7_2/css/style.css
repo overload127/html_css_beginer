@@ -48,7 +48,9 @@
 }
 
 .item-container {
+    max-width: 1440px;
     display: flex;
+    align-self: center;
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
