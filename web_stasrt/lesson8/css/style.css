@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Helvetica Neue Regular";
+    src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+    //border: 1px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue Regular";
+    font-size: 20px;
+    font-weight: 400;
+    color: #32325f;
+}
+
+header {
+    background-color: #f4f5f7;
+    padding-bottom: 191px;
+}
+
+.main-container{
+    max-width: 1140px;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 159px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue Bold";
+    font-size: 20px;
+    font-weight: 700;
+    color: #95989a;
+}
+
+.social a {
+    margin-left: 20px;
+}
+
+.social a i {
+    color: #95989a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-container {
+    width: 50%;
+}
+
+h1 {
+    font-family: "Helvetica Neue Bold";
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.price-tag {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 48px;
+    color: #525f7f;
+    margin-top: 18px;
+    margin-bottom: 70px;
+}
+.btn {
+    color: #ffffff;
+    font-family: "Helvetica Neue Bold";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+    background-color: gray;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+}
+
+.soccess {
+    background-color: #2dce89;
+}
+
+.listen {
+    background-color: #5e72e4;
+}
+
+.first {
+    padding-top: 90px;
+    padding-bottom: 131px;
+}
+
+h2 {
+    font-family: "Helvetica Neue Bold";
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 98px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 258px;
+    height: 288px;
+}
+
+.item img {
+    margin-bottom: 40px;
+}
+
+.item p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525f7f;
+    line-height: 1.2;
+}
+
+.second {
+    padding-top: 90px;
+    padding-bottom: 112px;
+    background-color: #f4f5f7;
+}
+
+.second .main-container h2 {
+    margin-bottom: 27px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crop {
+    width: 362px;
+    height: 254px;
+    overflow: hidden;
+}
+
+.crop img {
+    margin-top: 36px;
+}
+
+footer {
+    background-color: #32325f;
+    color: #ffffff;
+    padding-top: 78px;
+    padding-bottom: 104px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    min-width: 259px;
+    width: 259px;
+    height: 130px;
+}
+
+.footer-item h5 {
+    margin-top: 0px;
+    margin-bottom: 34px;
+    font-family: "Helvetica Neue Bold";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-item p {
+    font-family: "Helvetica Neue Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.footer-item p a {
+    text-decoration: none;
+    color: #ffffff;
+}
