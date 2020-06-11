@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Helvetica Neue Regular";
+    src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Helvetica Neue Regular";
+    font-weight: 400;
+}
+
+.hero {
+    padding-top: 61px;
+    padding-bottom: 191px;
+    background-color: #f4f5f7;
+}
+
+.nav-grey {
+    color: #95989a;
+    margin-bottom: 146px;
+}
+
+.logo {
+    font-family: "Helvetica Neue Bold";
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.social-icon {
+    color: #95989a;
+    width: 27px;
+    height: 26px;
+    margin-left: 20px;
+}
+
+.main-content {
+    color: #32325f;
+}
+
+.snippet {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.main-title {
+    font-family: "Helvetica Neue Bold";
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.price-tag {
+    font-size: 20px;
+    margin-bottom: 18px
+}
+
+.price {
+    font-size: 48px;
+    color: #525f7f;
+    margin-bottom: 49px
+}
+
+.buttons {
+    font-family: "Helvetica Neue Bold";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.main-image img {
+    width: 100%;
+}
+
+.about {
+    padding-top: 90px;
+    padding-bottom: 131px;
+    color: #32325f;
+}
+
+.title {
+    font-family: "Helvetica Neue Bold";
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 63px;
+}
+
+.img-paragraph {
+    margin-bottom: 40px;
+}
+
+.buyers {
+    padding-top: 90px;
+    padding-bottom: 76px;
+    color: #32325f;
+    background-color: #f4f5f7;
+}
+
+.photo {
+    margin-bottom: 36px;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.footer {
+    padding-top: 78px;
+    padding-bottom: 104px;
+    color: #ffffff;
+    background-color: #32325f;
+}
+
+.list {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.li-point {
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
